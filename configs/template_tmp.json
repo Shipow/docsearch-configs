@@ -1,0 +1,15 @@
+{
+  "indexName": "template_tmp",
+  "startUrls": [
+    "https://kwb-r.github.io/kwb.hantush"
+  ],
+  "selectors": {
+    "text": ".contents p, .contents li",
+    "lvl0": ".contents h1",
+    "lvl1": ".contents h2",
+    "lvl2": ".contents h3",
+    "lvl3": ".contents h4",
+    "lvl4": ".contents h5",
+    "lvl5": ".contents h6"
+  }
+}
