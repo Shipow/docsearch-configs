@@ -1,0 +1,16 @@
+{
+  "indexName": "wit-ai",
+  "startUrls": [
+    "https://wit.ai/docs/recipes"
+  ],
+  "stopUrls": [],
+  "selectors": {
+    "text": ".o-excerpt p, .o-excerpt li",
+    "lvl0": ".o-excerpt h1",
+    "lvl1": ".o-excerpt h2",
+    "lvl2": ".o-excerpt h3",
+    "lvl3": ".o-excerpt h4",
+    "lvl4": ".o-excerpt h5",
+    "lvl5": ".o-excerpt h6"
+  }
+}
