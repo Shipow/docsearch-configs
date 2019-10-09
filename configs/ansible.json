@@ -1,0 +1,16 @@
+{
+  "indexName": "ansible",
+  "startUrls": [
+    "https://docs.ansible.com/intro_inventory.html"
+  ],
+  "stopUrls": [],
+  "selectors": {
+    "text": ".section p, .section li",
+    "lvl0": ".section h1",
+    "lvl1": ".section h2",
+    "lvl2": ".section h3",
+    "lvl3": ".section h4",
+    "lvl4": ".section h5",
+    "lvl5": ".section h6"
+  }
+}
