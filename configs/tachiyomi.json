@@ -1,0 +1,33 @@
+{
+  "indexName": "tachiyomi",
+  "startUrls": [
+    "https://tachiyomi.org/help/"
+  ],
+  "stopUrls": [],
+  "selectors": {
+    "text": ".content p, .content li",
+    "lvl0": {
+      "selector": "p.sidebar-heading.open",
+      "global": true,
+      "defaultValue": "Documentation"
+    },
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "lvl4": ".content h5",
+    "lvl5": ".content h6",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true,
+      "defaultValue": "en-US"
+    }
+  },
+  "scrapStartUrls": false,
+  "stripChars": " .,;:#",
+  "customSettings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
+  }
+}
