@@ -1,0 +1,16 @@
+{
+  "indexName": "coding-net",
+  "startUrls": [
+    "https://help.coding.net/docs/artifacts/manual.html"
+  ],
+  "stopUrls": [],
+  "selectors": {
+    "text": ".helpArticle p, .helpArticle li",
+    "lvl0": ".helpArticle h1",
+    "lvl1": ".helpArticle h2",
+    "lvl2": ".helpArticle h3",
+    "lvl3": ".helpArticle h4",
+    "lvl4": ".helpArticle h5",
+    "lvl5": ".helpArticle h6"
+  }
+}
