@@ -1,0 +1,16 @@
+{
+  "indexName": "trixcms",
+  "startUrls": [
+    "https://docs.trixcms.eu/cdn-cgi/l/email-protection"
+  ],
+  "stopUrls": [],
+  "selectors": {
+    "text": ".cf-column p, .cf-column li",
+    "lvl0": ".cf-column h1",
+    "lvl1": ".cf-column h2",
+    "lvl2": ".cf-column h3",
+    "lvl3": ".cf-column h4",
+    "lvl4": ".cf-column h5",
+    "lvl5": ".cf-column h6"
+  }
+}
